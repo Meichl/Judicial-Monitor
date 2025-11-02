@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Documentation
+*.md
+docs/
+
+# Docker
+Dockerfile
+docker-compose*.yml
+.dockerignore
+
+# CI/CD
+.gitlab-ci.yml
+.github/
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
+logs/
+
+# Tests
+tests/
+pytest.ini
+
+# Others
+.DS_Store
+Thumbs.db
