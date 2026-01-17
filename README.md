@@ -20,38 +20,6 @@ A comprehensive monitoring system for tracking publications in Official Court Ga
 - Comprehensive test coverage
 - Health check endpoints
 
-## 🧱 Project Structure
-
-```
-judicial-monitor/
-├── app/
-│   ├── api/
-│   │   ├── v1/
-│   │   │   ├── endpoints/
-│   │   │   │   └── publications.py     # Publication endpoints
-│   │   │   └── router.py               # API router
-│   │   └── deps.py                     # Dependencies
-│   ├── core/
-│   │   ├── config.py                   # Configuration settings
-│   │   └── database.py                 # Database connection
-│   ├── models/
-│   │   └── publication.py              # Publication model
-│   ├── schemas/
-│   │   └── publication.py              # Pydantic schemas
-│   └── main.py                         # Application entry point
-├── alembic/
-│   ├── versions/                       # Database migrations
-│   └── env.py                          # Alembic configuration
-├── tests/
-│   ├── test_publications.py            # Publication tests
-│   └── conftest.py                     # Test configuration
-├── docker-compose.yml                  # Docker services
-├── Dockerfile                          # Application container
-├── requirements.txt                    # Python dependencies
-├── setup_project.py                    # Project setup script
-└── README.md
-```
-
 ## 🚀 Quick Start
 
 ### Prerequisites
